@@ -101,7 +101,7 @@ $(window).on('scroll', function () {
 
 
 //Animation link start
-$('.header__link').on('click', function () {
+$('.header__link, .mainscreen__scroll').on('click', function () {
 	let href = $(this).attr('href');
 	$('html, body').animate({
 		scrollTop: $(href).offset().top
